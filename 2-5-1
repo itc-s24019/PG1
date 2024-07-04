@@ -1,0 +1,15 @@
+print('abc' + str(2))
+print(type(int ('4')))
+print(type(float ('9.8')))
+
+answer1 = '''○ ● ● ●
+● ○ ● ●
+● ● ○ ●
+● ● ● ○
+'''
+print(answer1)
+
+w = '○ '
+b = '● '
+answer = w + b*3 + '\n' + b + w + b*2 + '\n' + b*2 + w + b + '\n' + b*3 + w
+print(answer)
